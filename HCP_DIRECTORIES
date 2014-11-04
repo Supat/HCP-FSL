@@ -1,4 +1,4 @@
-./S500-1-20140625/100307/
+./S500-#-20140625/######/
 ├── MNINonLinear
 │   ├── Native
 │   ├── ROIs
@@ -654,7 +654,7 @@
 │   ├── fsaverage_LR32k
 │   └── xfms
 ├── T1w
-│   ├── 100307
+│   ├── ######
 │   │   └── stats
 │   ├── Diffusion
 │   ├── Native
