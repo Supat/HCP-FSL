@@ -1,0 +1,751 @@
+./S500-1-20140625/100307/
+├── MNINonLinear
+│   ├── Native
+│   ├── ROIs
+│   ├── Results
+│   │   ├── rfMRI_REST1_LR
+│   │   │   ├── RibbonVolumeToSurfaceMapping
+│   │   │   └── rfMRI_REST1_LR_hp2000.ica
+│   │   │       └── filtered_func_data.ica
+│   │   │           └── report
+│   │   ├── rfMRI_REST1_RL
+│   │   │   ├── RibbonVolumeToSurfaceMapping
+│   │   │   └── rfMRI_REST1_RL_hp2000.ica
+│   │   │       └── filtered_func_data.ica
+│   │   │           └── report
+│   │   ├── rfMRI_REST2_LR
+│   │   │   ├── RibbonVolumeToSurfaceMapping
+│   │   │   └── rfMRI_REST2_LR_hp2000.ica
+│   │   │       └── filtered_func_data.ica
+│   │   │           └── report
+│   │   ├── rfMRI_REST2_RL
+│   │   │   ├── RibbonVolumeToSurfaceMapping
+│   │   │   └── rfMRI_REST2_RL_hp2000.ica
+│   │   │       └── filtered_func_data.ica
+│   │   │           └── report
+│   │   ├── tfMRI_EMOTION
+│   │   │   ├── tfMRI_EMOTION_hp200_s12_level2.feat
+│   │   │   │   └── GrayordinatesStats
+│   │   │   │       ├── cope1.feat
+│   │   │   │       ├── cope2.feat
+│   │   │   │       ├── cope3.feat
+│   │   │   │       ├── cope4.feat
+│   │   │   │       ├── cope5.feat
+│   │   │   │       └── cope6.feat
+│   │   │   ├── tfMRI_EMOTION_hp200_s2_level2.feat
+│   │   │   │   └── GrayordinatesStats
+│   │   │   │       ├── cope1.feat
+│   │   │   │       ├── cope2.feat
+│   │   │   │       ├── cope3.feat
+│   │   │   │       ├── cope4.feat
+│   │   │   │       ├── cope5.feat
+│   │   │   │       └── cope6.feat
+│   │   │   ├── tfMRI_EMOTION_hp200_s4_level2.feat
+│   │   │   │   └── GrayordinatesStats
+│   │   │   │       ├── cope1.feat
+│   │   │   │       ├── cope2.feat
+│   │   │   │       ├── cope3.feat
+│   │   │   │       ├── cope4.feat
+│   │   │   │       ├── cope5.feat
+│   │   │   │       └── cope6.feat
+│   │   │   ├── tfMRI_EMOTION_hp200_s4_level2vol.feat
+│   │   │   │   ├── cope1.feat
+│   │   │   │   │   └── stats
+│   │   │   │   ├── cope2.feat
+│   │   │   │   │   └── stats
+│   │   │   │   ├── cope3.feat
+│   │   │   │   │   └── stats
+│   │   │   │   ├── cope4.feat
+│   │   │   │   │   └── stats
+│   │   │   │   ├── cope5.feat
+│   │   │   │   │   └── stats
+│   │   │   │   └── cope6.feat
+│   │   │   │       └── stats
+│   │   │   └── tfMRI_EMOTION_hp200_s8_level2.feat
+│   │   │       └── GrayordinatesStats
+│   │   │           ├── cope1.feat
+│   │   │           ├── cope2.feat
+│   │   │           ├── cope3.feat
+│   │   │           ├── cope4.feat
+│   │   │           ├── cope5.feat
+│   │   │           └── cope6.feat
+│   │   ├── tfMRI_EMOTION_LR
+│   │   │   ├── EVs
+│   │   │   └── RibbonVolumeToSurfaceMapping
+│   │   ├── tfMRI_EMOTION_RL
+│   │   │   ├── EVs
+│   │   │   └── RibbonVolumeToSurfaceMapping
+│   │   ├── tfMRI_GAMBLING
+│   │   │   ├── tfMRI_GAMBLING_hp200_s12_level2.feat
+│   │   │   │   └── GrayordinatesStats
+│   │   │   │       ├── cope1.feat
+│   │   │   │       ├── cope2.feat
+│   │   │   │       ├── cope3.feat
+│   │   │   │       ├── cope4.feat
+│   │   │   │       ├── cope5.feat
+│   │   │   │       └── cope6.feat
+│   │   │   ├── tfMRI_GAMBLING_hp200_s2_level2.feat
+│   │   │   │   └── GrayordinatesStats
+│   │   │   │       ├── cope1.feat
+│   │   │   │       ├── cope2.feat
+│   │   │   │       ├── cope3.feat
+│   │   │   │       ├── cope4.feat
+│   │   │   │       ├── cope5.feat
+│   │   │   │       └── cope6.feat
+│   │   │   ├── tfMRI_GAMBLING_hp200_s4_level2.feat
+│   │   │   │   └── GrayordinatesStats
+│   │   │   │       ├── cope1.feat
+│   │   │   │       ├── cope2.feat
+│   │   │   │       ├── cope3.feat
+│   │   │   │       ├── cope4.feat
+│   │   │   │       ├── cope5.feat
+│   │   │   │       └── cope6.feat
+│   │   │   ├── tfMRI_GAMBLING_hp200_s4_level2vol.feat
+│   │   │   │   ├── cope1.feat
+│   │   │   │   │   └── stats
+│   │   │   │   ├── cope2.feat
+│   │   │   │   │   └── stats
+│   │   │   │   ├── cope3.feat
+│   │   │   │   │   └── stats
+│   │   │   │   ├── cope4.feat
+│   │   │   │   │   └── stats
+│   │   │   │   ├── cope5.feat
+│   │   │   │   │   └── stats
+│   │   │   │   └── cope6.feat
+│   │   │   │       └── stats
+│   │   │   └── tfMRI_GAMBLING_hp200_s8_level2.feat
+│   │   │       └── GrayordinatesStats
+│   │   │           ├── cope1.feat
+│   │   │           ├── cope2.feat
+│   │   │           ├── cope3.feat
+│   │   │           ├── cope4.feat
+│   │   │           ├── cope5.feat
+│   │   │           └── cope6.feat
+│   │   ├── tfMRI_GAMBLING_LR
+│   │   │   ├── EVs
+│   │   │   └── RibbonVolumeToSurfaceMapping
+│   │   ├── tfMRI_GAMBLING_RL
+│   │   │   ├── EVs
+│   │   │   └── RibbonVolumeToSurfaceMapping
+│   │   ├── tfMRI_LANGUAGE
+│   │   │   ├── tfMRI_LANGUAGE_hp200_s12_level2.feat
+│   │   │   │   └── GrayordinatesStats
+│   │   │   │       ├── cope1.feat
+│   │   │   │       ├── cope2.feat
+│   │   │   │       ├── cope3.feat
+│   │   │   │       ├── cope4.feat
+│   │   │   │       ├── cope5.feat
+│   │   │   │       └── cope6.feat
+│   │   │   ├── tfMRI_LANGUAGE_hp200_s2_level2.feat
+│   │   │   │   └── GrayordinatesStats
+│   │   │   │       ├── cope1.feat
+│   │   │   │       ├── cope2.feat
+│   │   │   │       ├── cope3.feat
+│   │   │   │       ├── cope4.feat
+│   │   │   │       ├── cope5.feat
+│   │   │   │       └── cope6.feat
+│   │   │   ├── tfMRI_LANGUAGE_hp200_s4_level2.feat
+│   │   │   │   └── GrayordinatesStats
+│   │   │   │       ├── cope1.feat
+│   │   │   │       ├── cope2.feat
+│   │   │   │       ├── cope3.feat
+│   │   │   │       ├── cope4.feat
+│   │   │   │       ├── cope5.feat
+│   │   │   │       └── cope6.feat
+│   │   │   ├── tfMRI_LANGUAGE_hp200_s4_level2vol.feat
+│   │   │   │   ├── cope1.feat
+│   │   │   │   │   └── stats
+│   │   │   │   ├── cope2.feat
+│   │   │   │   │   └── stats
+│   │   │   │   ├── cope3.feat
+│   │   │   │   │   └── stats
+│   │   │   │   ├── cope4.feat
+│   │   │   │   │   └── stats
+│   │   │   │   ├── cope5.feat
+│   │   │   │   │   └── stats
+│   │   │   │   └── cope6.feat
+│   │   │   │       └── stats
+│   │   │   └── tfMRI_LANGUAGE_hp200_s8_level2.feat
+│   │   │       └── GrayordinatesStats
+│   │   │           ├── cope1.feat
+│   │   │           ├── cope2.feat
+│   │   │           ├── cope3.feat
+│   │   │           ├── cope4.feat
+│   │   │           ├── cope5.feat
+│   │   │           └── cope6.feat
+│   │   ├── tfMRI_LANGUAGE_LR
+│   │   │   ├── EVs
+│   │   │   └── RibbonVolumeToSurfaceMapping
+│   │   ├── tfMRI_LANGUAGE_RL
+│   │   │   ├── EVs
+│   │   │   └── RibbonVolumeToSurfaceMapping
+│   │   ├── tfMRI_MOTOR
+│   │   │   ├── tfMRI_MOTOR_hp200_s12_level2.feat
+│   │   │   │   └── GrayordinatesStats
+│   │   │   │       ├── cope1.feat
+│   │   │   │       ├── cope10.feat
+│   │   │   │       ├── cope11.feat
+│   │   │   │       ├── cope12.feat
+│   │   │   │       ├── cope13.feat
+│   │   │   │       ├── cope14.feat
+│   │   │   │       ├── cope15.feat
+│   │   │   │       ├── cope16.feat
+│   │   │   │       ├── cope17.feat
+│   │   │   │       ├── cope18.feat
+│   │   │   │       ├── cope19.feat
+│   │   │   │       ├── cope2.feat
+│   │   │   │       ├── cope20.feat
+│   │   │   │       ├── cope21.feat
+│   │   │   │       ├── cope22.feat
+│   │   │   │       ├── cope23.feat
+│   │   │   │       ├── cope24.feat
+│   │   │   │       ├── cope25.feat
+│   │   │   │       ├── cope26.feat
+│   │   │   │       ├── cope3.feat
+│   │   │   │       ├── cope4.feat
+│   │   │   │       ├── cope5.feat
+│   │   │   │       ├── cope6.feat
+│   │   │   │       ├── cope7.feat
+│   │   │   │       ├── cope8.feat
+│   │   │   │       └── cope9.feat
+│   │   │   ├── tfMRI_MOTOR_hp200_s2_level2.feat
+│   │   │   │   └── GrayordinatesStats
+│   │   │   │       ├── cope1.feat
+│   │   │   │       ├── cope10.feat
+│   │   │   │       ├── cope11.feat
+│   │   │   │       ├── cope12.feat
+│   │   │   │       ├── cope13.feat
+│   │   │   │       ├── cope14.feat
+│   │   │   │       ├── cope15.feat
+│   │   │   │       ├── cope16.feat
+│   │   │   │       ├── cope17.feat
+│   │   │   │       ├── cope18.feat
+│   │   │   │       ├── cope19.feat
+│   │   │   │       ├── cope2.feat
+│   │   │   │       ├── cope20.feat
+│   │   │   │       ├── cope21.feat
+│   │   │   │       ├── cope22.feat
+│   │   │   │       ├── cope23.feat
+│   │   │   │       ├── cope24.feat
+│   │   │   │       ├── cope25.feat
+│   │   │   │       ├── cope26.feat
+│   │   │   │       ├── cope3.feat
+│   │   │   │       ├── cope4.feat
+│   │   │   │       ├── cope5.feat
+│   │   │   │       ├── cope6.feat
+│   │   │   │       ├── cope7.feat
+│   │   │   │       ├── cope8.feat
+│   │   │   │       └── cope9.feat
+│   │   │   ├── tfMRI_MOTOR_hp200_s4_level2.feat
+│   │   │   │   └── GrayordinatesStats
+│   │   │   │       ├── cope1.feat
+│   │   │   │       ├── cope10.feat
+│   │   │   │       ├── cope11.feat
+│   │   │   │       ├── cope12.feat
+│   │   │   │       ├── cope13.feat
+│   │   │   │       ├── cope14.feat
+│   │   │   │       ├── cope15.feat
+│   │   │   │       ├── cope16.feat
+│   │   │   │       ├── cope17.feat
+│   │   │   │       ├── cope18.feat
+│   │   │   │       ├── cope19.feat
+│   │   │   │       ├── cope2.feat
+│   │   │   │       ├── cope20.feat
+│   │   │   │       ├── cope21.feat
+│   │   │   │       ├── cope22.feat
+│   │   │   │       ├── cope23.feat
+│   │   │   │       ├── cope24.feat
+│   │   │   │       ├── cope25.feat
+│   │   │   │       ├── cope26.feat
+│   │   │   │       ├── cope3.feat
+│   │   │   │       ├── cope4.feat
+│   │   │   │       ├── cope5.feat
+│   │   │   │       ├── cope6.feat
+│   │   │   │       ├── cope7.feat
+│   │   │   │       ├── cope8.feat
+│   │   │   │       └── cope9.feat
+│   │   │   ├── tfMRI_MOTOR_hp200_s4_level2vol.feat
+│   │   │   │   ├── cope1.feat
+│   │   │   │   │   └── stats
+│   │   │   │   ├── cope10.feat
+│   │   │   │   │   └── stats
+│   │   │   │   ├── cope11.feat
+│   │   │   │   │   └── stats
+│   │   │   │   ├── cope12.feat
+│   │   │   │   │   └── stats
+│   │   │   │   ├── cope13.feat
+│   │   │   │   │   └── stats
+│   │   │   │   ├── cope14.feat
+│   │   │   │   │   └── stats
+│   │   │   │   ├── cope15.feat
+│   │   │   │   │   └── stats
+│   │   │   │   ├── cope16.feat
+│   │   │   │   │   └── stats
+│   │   │   │   ├── cope17.feat
+│   │   │   │   │   └── stats
+│   │   │   │   ├── cope18.feat
+│   │   │   │   │   └── stats
+│   │   │   │   ├── cope19.feat
+│   │   │   │   │   └── stats
+│   │   │   │   ├── cope2.feat
+│   │   │   │   │   └── stats
+│   │   │   │   ├── cope20.feat
+│   │   │   │   │   └── stats
+│   │   │   │   ├── cope21.feat
+│   │   │   │   │   └── stats
+│   │   │   │   ├── cope22.feat
+│   │   │   │   │   └── stats
+│   │   │   │   ├── cope23.feat
+│   │   │   │   │   └── stats
+│   │   │   │   ├── cope24.feat
+│   │   │   │   │   └── stats
+│   │   │   │   ├── cope25.feat
+│   │   │   │   │   └── stats
+│   │   │   │   ├── cope26.feat
+│   │   │   │   │   └── stats
+│   │   │   │   ├── cope3.feat
+│   │   │   │   │   └── stats
+│   │   │   │   ├── cope4.feat
+│   │   │   │   │   └── stats
+│   │   │   │   ├── cope5.feat
+│   │   │   │   │   └── stats
+│   │   │   │   ├── cope6.feat
+│   │   │   │   │   └── stats
+│   │   │   │   ├── cope7.feat
+│   │   │   │   │   └── stats
+│   │   │   │   ├── cope8.feat
+│   │   │   │   │   └── stats
+│   │   │   │   └── cope9.feat
+│   │   │   │       └── stats
+│   │   │   └── tfMRI_MOTOR_hp200_s8_level2.feat
+│   │   │       └── GrayordinatesStats
+│   │   │           ├── cope1.feat
+│   │   │           ├── cope10.feat
+│   │   │           ├── cope11.feat
+│   │   │           ├── cope12.feat
+│   │   │           ├── cope13.feat
+│   │   │           ├── cope14.feat
+│   │   │           ├── cope15.feat
+│   │   │           ├── cope16.feat
+│   │   │           ├── cope17.feat
+│   │   │           ├── cope18.feat
+│   │   │           ├── cope19.feat
+│   │   │           ├── cope2.feat
+│   │   │           ├── cope20.feat
+│   │   │           ├── cope21.feat
+│   │   │           ├── cope22.feat
+│   │   │           ├── cope23.feat
+│   │   │           ├── cope24.feat
+│   │   │           ├── cope25.feat
+│   │   │           ├── cope26.feat
+│   │   │           ├── cope3.feat
+│   │   │           ├── cope4.feat
+│   │   │           ├── cope5.feat
+│   │   │           ├── cope6.feat
+│   │   │           ├── cope7.feat
+│   │   │           ├── cope8.feat
+│   │   │           └── cope9.feat
+│   │   ├── tfMRI_MOTOR_LR
+│   │   │   ├── EVs
+│   │   │   └── RibbonVolumeToSurfaceMapping
+│   │   ├── tfMRI_MOTOR_RL
+│   │   │   ├── EVs
+│   │   │   └── RibbonVolumeToSurfaceMapping
+│   │   ├── tfMRI_RELATIONAL
+│   │   │   ├── tfMRI_RELATIONAL_hp200_s12_level2.feat
+│   │   │   │   └── GrayordinatesStats
+│   │   │   │       ├── cope1.feat
+│   │   │   │       ├── cope2.feat
+│   │   │   │       ├── cope3.feat
+│   │   │   │       ├── cope4.feat
+│   │   │   │       ├── cope5.feat
+│   │   │   │       └── cope6.feat
+│   │   │   ├── tfMRI_RELATIONAL_hp200_s2_level2.feat
+│   │   │   │   └── GrayordinatesStats
+│   │   │   │       ├── cope1.feat
+│   │   │   │       ├── cope2.feat
+│   │   │   │       ├── cope3.feat
+│   │   │   │       ├── cope4.feat
+│   │   │   │       ├── cope5.feat
+│   │   │   │       └── cope6.feat
+│   │   │   ├── tfMRI_RELATIONAL_hp200_s4_level2.feat
+│   │   │   │   └── GrayordinatesStats
+│   │   │   │       ├── cope1.feat
+│   │   │   │       ├── cope2.feat
+│   │   │   │       ├── cope3.feat
+│   │   │   │       ├── cope4.feat
+│   │   │   │       ├── cope5.feat
+│   │   │   │       └── cope6.feat
+│   │   │   ├── tfMRI_RELATIONAL_hp200_s4_level2vol.feat
+│   │   │   │   ├── cope1.feat
+│   │   │   │   │   └── stats
+│   │   │   │   ├── cope2.feat
+│   │   │   │   │   └── stats
+│   │   │   │   ├── cope3.feat
+│   │   │   │   │   └── stats
+│   │   │   │   ├── cope4.feat
+│   │   │   │   │   └── stats
+│   │   │   │   ├── cope5.feat
+│   │   │   │   │   └── stats
+│   │   │   │   └── cope6.feat
+│   │   │   │       └── stats
+│   │   │   └── tfMRI_RELATIONAL_hp200_s8_level2.feat
+│   │   │       └── GrayordinatesStats
+│   │   │           ├── cope1.feat
+│   │   │           ├── cope2.feat
+│   │   │           ├── cope3.feat
+│   │   │           ├── cope4.feat
+│   │   │           ├── cope5.feat
+│   │   │           └── cope6.feat
+│   │   ├── tfMRI_RELATIONAL_LR
+│   │   │   ├── EVs
+│   │   │   └── RibbonVolumeToSurfaceMapping
+│   │   ├── tfMRI_RELATIONAL_RL
+│   │   │   ├── EVs
+│   │   │   └── RibbonVolumeToSurfaceMapping
+│   │   ├── tfMRI_SOCIAL
+│   │   │   ├── tfMRI_SOCIAL_hp200_s12_level2.feat
+│   │   │   │   └── GrayordinatesStats
+│   │   │   │       ├── cope1.feat
+│   │   │   │       ├── cope2.feat
+│   │   │   │       ├── cope3.feat
+│   │   │   │       ├── cope4.feat
+│   │   │   │       ├── cope5.feat
+│   │   │   │       └── cope6.feat
+│   │   │   ├── tfMRI_SOCIAL_hp200_s2_level2.feat
+│   │   │   │   └── GrayordinatesStats
+│   │   │   │       ├── cope1.feat
+│   │   │   │       ├── cope2.feat
+│   │   │   │       ├── cope3.feat
+│   │   │   │       ├── cope4.feat
+│   │   │   │       ├── cope5.feat
+│   │   │   │       └── cope6.feat
+│   │   │   ├── tfMRI_SOCIAL_hp200_s4_level2.feat
+│   │   │   │   └── GrayordinatesStats
+│   │   │   │       ├── cope1.feat
+│   │   │   │       ├── cope2.feat
+│   │   │   │       ├── cope3.feat
+│   │   │   │       ├── cope4.feat
+│   │   │   │       ├── cope5.feat
+│   │   │   │       └── cope6.feat
+│   │   │   ├── tfMRI_SOCIAL_hp200_s4_level2vol.feat
+│   │   │   │   ├── cope1.feat
+│   │   │   │   │   └── stats
+│   │   │   │   ├── cope2.feat
+│   │   │   │   │   └── stats
+│   │   │   │   ├── cope3.feat
+│   │   │   │   │   └── stats
+│   │   │   │   ├── cope4.feat
+│   │   │   │   │   └── stats
+│   │   │   │   ├── cope5.feat
+│   │   │   │   │   └── stats
+│   │   │   │   └── cope6.feat
+│   │   │   │       └── stats
+│   │   │   └── tfMRI_SOCIAL_hp200_s8_level2.feat
+│   │   │       └── GrayordinatesStats
+│   │   │           ├── cope1.feat
+│   │   │           ├── cope2.feat
+│   │   │           ├── cope3.feat
+│   │   │           ├── cope4.feat
+│   │   │           ├── cope5.feat
+│   │   │           └── cope6.feat
+│   │   ├── tfMRI_SOCIAL_LR
+│   │   │   ├── EVs
+│   │   │   └── RibbonVolumeToSurfaceMapping
+│   │   ├── tfMRI_SOCIAL_RL
+│   │   │   ├── EVs
+│   │   │   └── RibbonVolumeToSurfaceMapping
+│   │   ├── tfMRI_WM
+│   │   │   ├── tfMRI_WM_hp200_s12_level2.feat
+│   │   │   │   └── GrayordinatesStats
+│   │   │   │       ├── cope1.feat
+│   │   │   │       ├── cope10.feat
+│   │   │   │       ├── cope11.feat
+│   │   │   │       ├── cope12.feat
+│   │   │   │       ├── cope13.feat
+│   │   │   │       ├── cope14.feat
+│   │   │   │       ├── cope15.feat
+│   │   │   │       ├── cope16.feat
+│   │   │   │       ├── cope17.feat
+│   │   │   │       ├── cope18.feat
+│   │   │   │       ├── cope19.feat
+│   │   │   │       ├── cope2.feat
+│   │   │   │       ├── cope20.feat
+│   │   │   │       ├── cope21.feat
+│   │   │   │       ├── cope22.feat
+│   │   │   │       ├── cope23.feat
+│   │   │   │       ├── cope24.feat
+│   │   │   │       ├── cope25.feat
+│   │   │   │       ├── cope26.feat
+│   │   │   │       ├── cope27.feat
+│   │   │   │       ├── cope28.feat
+│   │   │   │       ├── cope29.feat
+│   │   │   │       ├── cope3.feat
+│   │   │   │       ├── cope30.feat
+│   │   │   │       ├── cope4.feat
+│   │   │   │       ├── cope5.feat
+│   │   │   │       ├── cope6.feat
+│   │   │   │       ├── cope7.feat
+│   │   │   │       ├── cope8.feat
+│   │   │   │       └── cope9.feat
+│   │   │   ├── tfMRI_WM_hp200_s2_level2.feat
+│   │   │   │   └── GrayordinatesStats
+│   │   │   │       ├── cope1.feat
+│   │   │   │       ├── cope10.feat
+│   │   │   │       ├── cope11.feat
+│   │   │   │       ├── cope12.feat
+│   │   │   │       ├── cope13.feat
+│   │   │   │       ├── cope14.feat
+│   │   │   │       ├── cope15.feat
+│   │   │   │       ├── cope16.feat
+│   │   │   │       ├── cope17.feat
+│   │   │   │       ├── cope18.feat
+│   │   │   │       ├── cope19.feat
+│   │   │   │       ├── cope2.feat
+│   │   │   │       ├── cope20.feat
+│   │   │   │       ├── cope21.feat
+│   │   │   │       ├── cope22.feat
+│   │   │   │       ├── cope23.feat
+│   │   │   │       ├── cope24.feat
+│   │   │   │       ├── cope25.feat
+│   │   │   │       ├── cope26.feat
+│   │   │   │       ├── cope27.feat
+│   │   │   │       ├── cope28.feat
+│   │   │   │       ├── cope29.feat
+│   │   │   │       ├── cope3.feat
+│   │   │   │       ├── cope30.feat
+│   │   │   │       ├── cope4.feat
+│   │   │   │       ├── cope5.feat
+│   │   │   │       ├── cope6.feat
+│   │   │   │       ├── cope7.feat
+│   │   │   │       ├── cope8.feat
+│   │   │   │       └── cope9.feat
+│   │   │   ├── tfMRI_WM_hp200_s4_level2.feat
+│   │   │   │   └── GrayordinatesStats
+│   │   │   │       ├── cope1.feat
+│   │   │   │       ├── cope10.feat
+│   │   │   │       ├── cope11.feat
+│   │   │   │       ├── cope12.feat
+│   │   │   │       ├── cope13.feat
+│   │   │   │       ├── cope14.feat
+│   │   │   │       ├── cope15.feat
+│   │   │   │       ├── cope16.feat
+│   │   │   │       ├── cope17.feat
+│   │   │   │       ├── cope18.feat
+│   │   │   │       ├── cope19.feat
+│   │   │   │       ├── cope2.feat
+│   │   │   │       ├── cope20.feat
+│   │   │   │       ├── cope21.feat
+│   │   │   │       ├── cope22.feat
+│   │   │   │       ├── cope23.feat
+│   │   │   │       ├── cope24.feat
+│   │   │   │       ├── cope25.feat
+│   │   │   │       ├── cope26.feat
+│   │   │   │       ├── cope27.feat
+│   │   │   │       ├── cope28.feat
+│   │   │   │       ├── cope29.feat
+│   │   │   │       ├── cope3.feat
+│   │   │   │       ├── cope30.feat
+│   │   │   │       ├── cope4.feat
+│   │   │   │       ├── cope5.feat
+│   │   │   │       ├── cope6.feat
+│   │   │   │       ├── cope7.feat
+│   │   │   │       ├── cope8.feat
+│   │   │   │       └── cope9.feat
+│   │   │   ├── tfMRI_WM_hp200_s4_level2vol.feat
+│   │   │   │   ├── cope1.feat
+│   │   │   │   │   └── stats
+│   │   │   │   ├── cope10.feat
+│   │   │   │   │   └── stats
+│   │   │   │   ├── cope11.feat
+│   │   │   │   │   └── stats
+│   │   │   │   ├── cope12.feat
+│   │   │   │   │   └── stats
+│   │   │   │   ├── cope13.feat
+│   │   │   │   │   └── stats
+│   │   │   │   ├── cope14.feat
+│   │   │   │   │   └── stats
+│   │   │   │   ├── cope15.feat
+│   │   │   │   │   └── stats
+│   │   │   │   ├── cope16.feat
+│   │   │   │   │   └── stats
+│   │   │   │   ├── cope17.feat
+│   │   │   │   │   └── stats
+│   │   │   │   ├── cope18.feat
+│   │   │   │   │   └── stats
+│   │   │   │   ├── cope19.feat
+│   │   │   │   │   └── stats
+│   │   │   │   ├── cope2.feat
+│   │   │   │   │   └── stats
+│   │   │   │   ├── cope20.feat
+│   │   │   │   │   └── stats
+│   │   │   │   ├── cope21.feat
+│   │   │   │   │   └── stats
+│   │   │   │   ├── cope22.feat
+│   │   │   │   │   └── stats
+│   │   │   │   ├── cope23.feat
+│   │   │   │   │   └── stats
+│   │   │   │   ├── cope24.feat
+│   │   │   │   │   └── stats
+│   │   │   │   ├── cope25.feat
+│   │   │   │   │   └── stats
+│   │   │   │   ├── cope26.feat
+│   │   │   │   │   └── stats
+│   │   │   │   ├── cope27.feat
+│   │   │   │   │   └── stats
+│   │   │   │   ├── cope28.feat
+│   │   │   │   │   └── stats
+│   │   │   │   ├── cope29.feat
+│   │   │   │   │   └── stats
+│   │   │   │   ├── cope3.feat
+│   │   │   │   │   └── stats
+│   │   │   │   ├── cope30.feat
+│   │   │   │   │   └── stats
+│   │   │   │   ├── cope4.feat
+│   │   │   │   │   └── stats
+│   │   │   │   ├── cope5.feat
+│   │   │   │   │   └── stats
+│   │   │   │   ├── cope6.feat
+│   │   │   │   │   └── stats
+│   │   │   │   ├── cope7.feat
+│   │   │   │   │   └── stats
+│   │   │   │   ├── cope8.feat
+│   │   │   │   │   └── stats
+│   │   │   │   └── cope9.feat
+│   │   │   │       └── stats
+│   │   │   └── tfMRI_WM_hp200_s8_level2.feat
+│   │   │       └── GrayordinatesStats
+│   │   │           ├── cope1.feat
+│   │   │           ├── cope10.feat
+│   │   │           ├── cope11.feat
+│   │   │           ├── cope12.feat
+│   │   │           ├── cope13.feat
+│   │   │           ├── cope14.feat
+│   │   │           ├── cope15.feat
+│   │   │           ├── cope16.feat
+│   │   │           ├── cope17.feat
+│   │   │           ├── cope18.feat
+│   │   │           ├── cope19.feat
+│   │   │           ├── cope2.feat
+│   │   │           ├── cope20.feat
+│   │   │           ├── cope21.feat
+│   │   │           ├── cope22.feat
+│   │   │           ├── cope23.feat
+│   │   │           ├── cope24.feat
+│   │   │           ├── cope25.feat
+│   │   │           ├── cope26.feat
+│   │   │           ├── cope27.feat
+│   │   │           ├── cope28.feat
+│   │   │           ├── cope29.feat
+│   │   │           ├── cope3.feat
+│   │   │           ├── cope30.feat
+│   │   │           ├── cope4.feat
+│   │   │           ├── cope5.feat
+│   │   │           ├── cope6.feat
+│   │   │           ├── cope7.feat
+│   │   │           ├── cope8.feat
+│   │   │           └── cope9.feat
+│   │   ├── tfMRI_WM_LR
+│   │   │   ├── EVs
+│   │   │   └── RibbonVolumeToSurfaceMapping
+│   │   └── tfMRI_WM_RL
+│   │       ├── EVs
+│   │       └── RibbonVolumeToSurfaceMapping
+│   ├── fsaverage_LR32k
+│   └── xfms
+├── T1w
+│   ├── 100307
+│   │   └── stats
+│   ├── Diffusion
+│   ├── Native
+│   └── fsaverage_LR32k
+├── release-notes
+└── unprocessed
+    └── 3T
+        ├── Diffusion
+        ├── T1w_MPR1
+        ├── T2w_SPC1
+        ├── rfMRI_REST1_LR
+        │   └── LINKED_DATA
+        │       └── PHYSIO
+        ├── rfMRI_REST1_RL
+        │   └── LINKED_DATA
+        │       └── PHYSIO
+        ├── rfMRI_REST2_LR
+        │   └── LINKED_DATA
+        │       └── PHYSIO
+        ├── rfMRI_REST2_RL
+        │   └── LINKED_DATA
+        │       └── PHYSIO
+        ├── tfMRI_EMOTION_LR
+        │   └── LINKED_DATA
+        │       ├── EPRIME
+        │       │   └── EVs
+        │       └── PHYSIO
+        ├── tfMRI_EMOTION_RL
+        │   └── LINKED_DATA
+        │       ├── EPRIME
+        │       │   └── EVs
+        │       └── PHYSIO
+        ├── tfMRI_GAMBLING_LR
+        │   └── LINKED_DATA
+        │       ├── EPRIME
+        │       │   └── EVs
+        │       └── PHYSIO
+        ├── tfMRI_GAMBLING_RL
+        │   └── LINKED_DATA
+        │       ├── EPRIME
+        │       │   └── EVs
+        │       └── PHYSIO
+        ├── tfMRI_LANGUAGE_LR
+        │   └── LINKED_DATA
+        │       ├── EPRIME
+        │       │   └── EVs
+        │       └── PHYSIO
+        ├── tfMRI_LANGUAGE_RL
+        │   └── LINKED_DATA
+        │       ├── EPRIME
+        │       │   └── EVs
+        │       └── PHYSIO
+        ├── tfMRI_MOTOR_LR
+        │   └── LINKED_DATA
+        │       ├── EPRIME
+        │       │   └── EVs
+        │       └── PHYSIO
+        ├── tfMRI_MOTOR_RL
+        │   └── LINKED_DATA
+        │       ├── EPRIME
+        │       │   └── EVs
+        │       └── PHYSIO
+        ├── tfMRI_RELATIONAL_LR
+        │   └── LINKED_DATA
+        │       ├── EPRIME
+        │       │   └── EVs
+        │       └── PHYSIO
+        ├── tfMRI_RELATIONAL_RL
+        │   └── LINKED_DATA
+        │       ├── EPRIME
+        │       │   └── EVs
+        │       └── PHYSIO
+        ├── tfMRI_SOCIAL_LR
+        │   └── LINKED_DATA
+        │       ├── EPRIME
+        │       │   └── EVs
+        │       └── PHYSIO
+        ├── tfMRI_SOCIAL_RL
+        │   └── LINKED_DATA
+        │       ├── EPRIME
+        │       │   └── EVs
+        │       └── PHYSIO
+        ├── tfMRI_WM_LR
+        │   └── LINKED_DATA
+        │       ├── EPRIME
+        │       │   └── EVs
+        │       └── PHYSIO
+        └── tfMRI_WM_RL
+            └── LINKED_DATA
+                ├── EPRIME
+                │   └── EVs
+                └── PHYSIO
+
+748 directories
