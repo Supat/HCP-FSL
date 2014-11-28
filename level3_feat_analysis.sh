@@ -2,9 +2,9 @@
 
 usage() {
 	echo "Description: "
-	echo "	This script automate 1st-level analysis of HCP using FSL."
+	echo "	This script automate 3rd-level analysis of HCP using FSL."
 	echo "Usage: "
-	echo "	./level1_feat_analysys.sh"
+	echo "	./level3_feat_analysys.sh"
 }
 
 # check whether user had supplied -h or --help . If yes display usage 
