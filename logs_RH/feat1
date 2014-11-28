@@ -1,0 +1,27 @@
+
+/bin/cp /tmp/feat_erZv9K.fsf design.fsf
+
+/usr/local/fsl/bin/feat_model design
+
+mkdir .files;cp /usr/local/fsl/doc/fsl.css .files;ln -s /usr/local/fsl/doc/images .files/images
+
+/usr/local/fsl/bin/fsl_sub -T 60 -l logs -N feat2_pre   /usr/local/fsl/bin/feat /Users/Sui/Desktop/Group_Motor_RH.gfeat/design.fsf -D /Users/Sui/Desktop/Group_Motor_RH.gfeat -gfeatprep
+35025
+
+/usr/local/fsl/bin/fsl_sub -T 60 -l logs -N feat3a_flame -j 35025  /usr/local/fsl/bin/feat /Users/Sui/Desktop/Group_Motor_RH.gfeat/cope1.feat/design.fsf -D /Users/Sui/Desktop/Group_Motor_RH.gfeat/cope1.feat -I 1 -flame1
+37212
+
+/usr/local/fsl/bin/fsl_sub -T 60 -l logs -N feat3b_flame -j 37212 -t ./.flame
+37679
+
+/usr/local/fsl/bin/fsl_sub -T 60 -l logs -N feat3c_flame -j 37679  /usr/local/fsl/bin/feat /Users/Sui/Desktop/Group_Motor_RH.gfeat/cope1.feat/design.fsf -D /Users/Sui/Desktop/Group_Motor_RH.gfeat/cope1.feat -flame3
+38647
+
+/usr/local/fsl/bin/fsl_sub -T 60 -l logs -N feat4_post -j 38647  /usr/local/fsl/bin/feat /Users/Sui/Desktop/Group_Motor_RH.gfeat/cope1.feat/design.fsf -D /Users/Sui/Desktop/Group_Motor_RH.gfeat/cope1.feat -poststats 1
+38713
+
+/usr/local/fsl/bin/fsl_sub -T 1 -l logs -N feat5_stop -j 38713  /usr/local/fsl/bin/feat /Users/Sui/Desktop/Group_Motor_RH.gfeat/cope1.feat/design.fsf -D /Users/Sui/Desktop/Group_Motor_RH.gfeat/cope1.feat -stop
+39311
+
+/usr/local/fsl/bin/fsl_sub -T 1 -l logs -N feat5_stop -j 39311  /usr/local/fsl/bin/feat /Users/Sui/Desktop/Group_Motor_RH.gfeat/cope1.feat/design.fsf -D /Users/Sui/Desktop/Group_Motor_RH.gfeat -stop
+39451
