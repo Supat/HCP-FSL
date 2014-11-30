@@ -13,3 +13,11 @@ then
 	usage
 	exit 0
 fi 
+
+# setup environment parameter for FSL directory and FSL's binary directory
+FSLDIR=/usr/local/fsl
+FSLBIN=${FSLDIR}/bin
+
+# setup environment parameter for dataset directory
+DATADIR=~
+
